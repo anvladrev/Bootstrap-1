@@ -1,0 +1,250 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Kaushan+Script');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+
+#contacts:target {
+    display: block;
+}
+
+#home:not(target),
+#catalog:not(target) {
+    display: none;
+}
+
+#catalog:target {
+    display: block;
+}
+
+#contacts:not(target),
+#home:not(target) {
+    display: none;
+}
+
+
+#home:target {
+    display: block;
+}
+
+#contacts:not(target),
+#catalog:not(target) {
+    display: none;
+}
+
+#contacts:not(target),
+#catalog:not(target) {
+    display: none;
+}
+
+:not(target)~#home {
+    display: block;
+}
+
+:target~#home {
+    display: none;
+}
+
+
+i {
+    font-family: fontawesome;
+}
+
+
+
+body {
+    background: url(../img/spec2.png) 0px 0px repeat-x,
+
+    url(../img/bg2.png) 0px 100% repeat-x;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 70px;
+    overflow-x: hidden;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px #000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.navbar-inverse {
+    height: 200px;
+    background-image: url(../img/bg11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+a.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+
+a.navbar-brand:hover {
+    text-shadow: 2px 2px 5px #f5f5f5;
+
+}
+
+.nav.navbar-nav.navbar-right {
+    font-family: 'Great Vibes', cursive;
+    font-size: 22px;
+    margin-top: 60px;
+    background: #222;
+   
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+    text-shadow: 2px 2px 5px #f5f5f5;
+
+}
+
+#headerwrap {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+
+}
+
+.row.centered {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.col-md-6 img {
+    width: 100%;
+}
+
+.col-md-6 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+img.card-img-top {
+    margin-left: 10%;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.sprite1 {
+    background-image: url(../img/sprite.jpg);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+
+.sprite2 {
+    background-image: url(../img/sprite.jpg);
+    background-position: 0px -90px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.sprite3 {
+    background-image: url(../img/sprite.jpg);
+    background-position: 0px -195px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.sprite4 {
+    background-image: url(../img/sprite.jpg);
+    background-position: 0px -290px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.sprite5 {
+    background-image: url(../img/sprite.jpg);
+    background-position: 0px -390px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.sprite6 {
+    background-image: url(../img/sprite.jpg);
+    background-position: 0px -490px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+form {
+    width: 50%;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+button.btn.btn-success.btn-lg {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+iframe {
+    margin-left: 10px;
+}
+
+#contacts p {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.footer {
+    padding: 0px;
+    background: #000;
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+    box-shadow: 0px 5px 20px #000;
+    color: #fff;
+    padding-bottom: 20px;
+
+
+}
+
+.footer p {
+    margin: 5px;
+}
+
+.col-lg-2.brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+.footer i {
+    font-size: 25px;
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+
+}
